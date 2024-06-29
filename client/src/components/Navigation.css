@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.xbutton {
+  color: white;
+  font-size: 55px;
+  position: fixed;
+  top: 25px;
+  right: 40px;
+  cursor: pointer;
+}
+
+.mobileNavBar {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(84, 113, 115);
+  backdrop-filter: blur(3px);
+  z-index: 100;
+  transform-origin: top;
+}
+
+.navList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%);
+}
+
+.linkWrapper {
+  padding: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.navLink {
+  margin-bottom: 20px;
+  padding: 5px;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.navLink:hover {
+  background-color: rgb(19, 23, 22) !important;
+}
+
+.navList a {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 12px;
+}
+
+.logo {
+  height: 70px;
+  margin-left: 10px;
+}
+
+.navbar-list {
+  display: flex;
+  list-style: none;
+}
+.navbar-list a {
+  color: #404040;
+  text-decoration: none;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.homeLink,
+.leistungenLink,
+.uebermichLink,
+.kontaktLink {
+  margin-right: 20px;
+  transition: all 0.3s;
+}
+
+.homeLink:hover,
+.leistungenLink:hover,
+.uebermichLink:hover,
+.kontaktLink:hover {
+  transform: translate(0px, -6px) !important;
+}
+
+.active {
+  color: #344647 !important;
+}
+
+.menuIcon {
+  display: none;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 30;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .logo {
+    height: 60px;
+  }
+
+  .navbar-list a {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 700px) {
+  .logo {
+    height: 50px;
+  }
+
+  .navbar-list a {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 550px) {
+  .navbar-list {
+    display: none;
+  }
+  .menuIcon {
+    display: block;
+  }
+
+  .logo {
+    height: 40px;
+  }
+}

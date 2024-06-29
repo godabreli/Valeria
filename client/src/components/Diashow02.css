@@ -1,0 +1,35 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.diashow-wrapper {
+  width: 100%;
+  height: calc(70vw / 2 * 1.37);
+  position: relative;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: 2.5s ease-in-out;
+}
+
+.image-active {
+  opacity: 1;
+}
+
+@media (max-width: 1100px) {
+  .diashow-wrapper {
+    height: calc(70vw * 1.4);
+  }
+}
+
+@media (max-width: 700px) {
+  .diashow-wrapper {
+    height: calc(90vw * 1.4);
+  }
+}

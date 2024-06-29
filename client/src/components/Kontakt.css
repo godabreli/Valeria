@@ -1,0 +1,183 @@
+.kontaktElement {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  gap: 20px;
+  margin: 50px auto 15px;
+}
+
+.kontaktText {
+  border: solid 1px rgba(84, 113, 115);
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.gleichgewicht {
+  width: 100px;
+  height: 110px;
+}
+.telefon {
+  width: 100%;
+  font-weight: 600;
+  text-align: left;
+}
+
+.kontaktFormWrapper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.popupMessage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 200px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-top: 50px;
+  border: solid 1px rgba(84, 113, 115);
+  background-color: white;
+}
+
+.popupButton {
+  margin-top: auto;
+  margin-bottom: 10px;
+  width: 50px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(84, 113, 115);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.popupButton:hover {
+  background-color: rgb(66, 89, 91);
+}
+
+.kontaktForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.name,
+.email {
+  height: 40px;
+  border: solid 1px rgba(84, 113, 115);
+  padding: 0 7px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.message {
+  min-height: 200px;
+  border: solid 1px rgba(84, 113, 115);
+  padding: 0 7px;
+  font-size: 14px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.name:focus,
+.email:focus,
+.message:focus {
+  outline: solid 1px rgba(84, 113, 115);
+}
+
+.label {
+  color: #404040;
+  text-decoration: none;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.label-rot {
+  color: red;
+  text-decoration: none;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sendButton {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(84, 113, 115);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.sendButton:hover {
+  cursor: pointer;
+  background-color: rgb(66, 89, 91);
+}
+
+.sendButton-disabled {
+  background-color: rgb(137, 180, 184);
+}
+
+.sendButton-disabled:hover {
+  background-color: rgb(137, 180, 184);
+}
+
+.spinner {
+  font-size: 31px;
+}
+
+.spinnerDiv {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spinnerDiv-drehen {
+  animation: spinner 1.5s linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spinner {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1100px) {
+  .kontaktElement {
+    display: flex;
+    flex-direction: column;
+  }
+  .gleichgewicht {
+    width: 80px;
+    height: 85px;
+  }
+}
+
+@media (max-width: 400px) {
+  .popupMessage {
+    width: 95vw;
+  }
+}

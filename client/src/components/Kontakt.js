@@ -78,7 +78,7 @@ export default function Kontakt() {
         <title>Kontakt Valeria Gerol | Psychotherapeut Düsseldorf</title>
         <meta
           name="description"
-          content="Kontaktieren Sie mich heute, um Ihre Hochzeit in ein Kunstwerk aus wundershönen Erinerungen zu verwandeln.  "
+          content="Kontaktieren Sie mich, um mehr Harmonie, Wiederstandskraft und innere Ruhe zu erlangen."
         />
         <link rel="canonical" href="https://liebevollbelichtet.de/Kontakt" />
       </Helmet>

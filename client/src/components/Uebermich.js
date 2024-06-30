@@ -1,9 +1,18 @@
 import "./Uebermich.css";
 import Diashow02 from "./Diashow02";
+import { Helmet } from "react-helmet-async";
 
 export default function Uebermich() {
   return (
     <>
+      <Helmet>
+        <title>Valeria Gerol | Psychologische Beratung | Düsseldorf</title>
+        <meta
+          name="description"
+          content="Profitieren Sie aus meiner ganzheitlichen Herangehensweise und innovatieven Psychologischen Methoden."
+        />
+        <link rel="canonical" href="https://liebevollbelichtet.de/Kontakt" />
+      </Helmet>
       <div className="element05">
         <div className="text05">
           <ul className="list">

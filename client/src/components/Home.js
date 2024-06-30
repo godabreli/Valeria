@@ -1,10 +1,19 @@
 import "./Home.css";
 import Diashow01 from "./Diashow01";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 export default function Home() {
   return (
     <>
+      <Helmet>
+        <title>Valeria Gerol | Psychologische Beratung | Düsseldorf</title>
+        <meta
+          name="description"
+          content="Qualifizierte Psychologische Beratung und Personal Coaching in Düsseldorf"
+        />
+        <link rel="canonical" href="https://liebevollbelichtet.de/Kontakt" />
+      </Helmet>
       <div className="Element01">
         <div className="text01">
           <h1>Psychologische Beratung bei Valeria Gerol</h1>

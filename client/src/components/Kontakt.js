@@ -44,7 +44,7 @@ export default function Kontakt() {
           );
         } else {
           setPopupMessage(
-            "Es gab Probleme beim versenden. Bitte versuche es noch ein Mal. Du erreichst mich auch unter der Nummer +491794839729"
+            "Es gab Probleme beim versenden. Bitte versuche es noch ein Mal. Du erreichst mich auch unter der Nummer +491776779081"
           );
           console.log(answer.error);
         }

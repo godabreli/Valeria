@@ -18,6 +18,19 @@ export default function Uebermich() {
           <ul className="list">
             <li>
               <span className="bold">
+                2024 – Zertifizierung in der Positiven Psychologie.
+              </span>
+              <br />
+            </li>
+            <li>
+              <span className="bold">
+                2024 – Zertifizierung in der Verwendung von NLP-Techniken mit
+                dem Psychodynamischen Ansatz.
+              </span>
+              <br />
+            </li>
+            <li>
+              <span className="bold">
                 2023 – Weiterbildung zur Psychotherapeutin.
               </span>
               <br />

@@ -7,6 +7,8 @@ export default function Diashow02() {
     "images/Psychologische_Beratung_010.jpg",
     "images/Psychologische_Beratung_011.jpg",
     "images/Psychologische_Beratung_012.jpg",
+    "images/Psychologische_Beratung_013.jpg",
+    "images/Psychologische_Beratung_014.jpg",
   ];
 
   const [currentImage, setCurretImage] = useState(0);

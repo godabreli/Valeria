@@ -18,13 +18,13 @@ export default function Home() {
         <div className="text01">
           <h1>Psychologische Beratung bei Valeria Gerol</h1>
           <p>
-            Hallo und willkommen! Ich bin Ihre vertrauensvolle Begleiterin auf
-            dem Weg zu innerer Stärke und emotionaler Ausgeglichenheit. Als
-            erfahrene psychologische Beraterin in Düsseldorf bin ich hier, um
-            Ihnen zu helfen, Ihr authentisches Selbst zu entdecken, den Spagat
-            zwischen verschiedenen Lebensrollen zu meistern, Beziehungshürden zu
-            überwinden und Angehörigen von psychisch erkrankten Menschen
-            Unterstützung zu bieten.
+            Herzlich willkommen in meiner Welt der transformierenden
+            persönlichen Entwicklung, inneren Heilung und emotionalen Balance in
+            verschiedenen Lebensbereichen! Als einfühlsame Begleiterin stehe ich
+            Ihnen zur Seite, um Ihnen dabei zu helfen, Ihre innere Stärke zu
+            entfalten und Ihr authentisches Selbst zu entdecken. Ich biete auch
+            wertvolle Unterstützung für Angehörige von psychisch erkrankten
+            Menschen, um Ihnen in schwierigen Zeiten Halt und Rat zu geben.
           </p>
           <div className="gleichgewichtDiv">
             <img

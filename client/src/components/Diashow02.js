@@ -9,6 +9,7 @@ export default function Diashow02() {
     "images/Psychologische_Beratung_012.jpg",
     "images/Psychologische_Beratung_013.jpg",
     "images/Psychologische_Beratung_014.jpg",
+    "images/Psychologische_Beratung_015.jpg",
   ];
 
   const [currentImage, setCurretImage] = useState(0);

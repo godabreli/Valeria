@@ -18,6 +18,13 @@ export default function Uebermich() {
           <ul className="list">
             <li>
               <span className="bold">
+                2025 – Zertifizierung zum Jungianischen Coach: Analytische
+                Psychologie nach Jung.
+              </span>
+              <br />
+            </li>
+            <li>
+              <span className="bold">
                 2024 – Zertifizierung in der Positiven Psychologie.
               </span>
               <br />

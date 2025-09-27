@@ -2,17 +2,13 @@ const nodemailer = require("nodemailer");
 
 const createMailTransporter = () => {
   const transporter = nodemailer.createTransport({
-    host: process.env.LIEBEVOLL_HOST,
+    host: process.env.EMAIL_HOST,
     port: 587,
     secureConnection: false,
-    // secure: false,
+    secure: false,
     auth: {
-      user: process.env.LIEBEVOLL_USER,
-      pass: process.env.LIEBEVOLL_PASSWORD,
-    },
-    tls: {
-      // do not fail on invalid certs
-      rejectUnauthorized: false,
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASSWORD,
     },
   });
   return transporter;
@@ -22,7 +18,7 @@ const sendEmail = async function (contactForm) {
   const transporter = createMailTransporter();
 
   const mailOptions = {
-    from: "kontakt@liebevollbelichtet.de",
+    from: "valeria.gerol@gmail.com",
     to: "valeria.gerol@gmail.com",
     subject: "Kunden Anfrage",
     replyTo: contactForm.email,
